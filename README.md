@@ -33,8 +33,8 @@ Follow these steps to set up the project locally:
 
 - **Clone the repository:**
 
-  1. git clone https://github.com/Aditya61101/teams-chat-app.git
-  2. cd teams-chat-app
+  1. git clone https://github.com/Yogeshlodhi/ConvoSpace.git
+  2. cd ConvoSpace
 
 - **Install the dependencies:** npm install
 
