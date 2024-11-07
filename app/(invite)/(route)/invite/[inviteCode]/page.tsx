@@ -14,9 +14,11 @@ const InviteCodePage = async ({
     params
 }: Props) => {
     const profile = await currentProfile();
+    console.log("Profile : ", profile);
 
     if (!profile)
-        return redirectToSignIn();
+        // return redirectToSignIn();
+    return redirectToSignIn({ returnBackUrl: process.env.NEXT_PUBLIC_CLERK_SIGN_IN_URL || "/" });
 
     if (!params.inviteCode)
         return redirect("/");
