@@ -13,8 +13,8 @@ import { QueryProvider } from '@/components/providers/query-provider'
 const sans = Open_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Chat App',
-  description: 'A team chat app',
+  title: 'Convo Space',
+  description: 'Create, Share, Connect — Welcome to Convo Space',
 }
 
 export default function RootLayout({

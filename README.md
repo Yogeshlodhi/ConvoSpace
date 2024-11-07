@@ -1,4 +1,4 @@
-# Teams Chat App
+# Convo Space
 
 This project is a clone of the popular communication platform Discord. It aims to replicate the core features and user interface of Discord.
 
