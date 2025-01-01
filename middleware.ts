@@ -30,7 +30,7 @@ function corsMiddleware(req: NextRequest) {
 export default async function middleware(req: NextRequest, event: NextFetchEvent) {
     // Process authentication first
     const authResult = authMiddleware({
-        publicRoutes: ["/api/uploadthing"],
+        publicRoutes: ["/api/uploadthing", "/api/socket/io"],
     })(req, event);
 
     if (!authResult) {
