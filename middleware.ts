@@ -2,10 +2,7 @@ import { NextResponse } from "next/server";
 import { authMiddleware } from "@clerk/nextjs";
 import type { NextRequest, NextFetchEvent } from "next/server";
 
-const allowedOrigins = [
-    "https://convo-space-8cnfn511f-jerrys-projects-825ed6bc.vercel.app",
-    "https://convo-space-h9vul1fj4-jerrys-projects-825ed6bc.vercel.app",
-];
+const allowedOrigins = ["https://convo-space-h9vul1fj4-jerrys-projects-825ed6bc.vercel.app",];
 
 // CORS Middleware
 function corsMiddleware(req: NextRequest) {
